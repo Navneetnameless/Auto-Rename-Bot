@@ -15,7 +15,7 @@ class Config(object):
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1302933634').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002192793396") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Nameless_botz") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002197485186"))
     
     # wes response configuration     
@@ -25,7 +25,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {first} 
+    START_TXT = """Hello {} 
     
 ➻ This Is An Advanced And Yet Powerful Rename Bot.
     
