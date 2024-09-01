@@ -25,7 +25,7 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 
+    START_TXT = """Hello {first} 
     
 ➻ This Is An Advanced And Yet Powerful Rename Bot.
     
@@ -82,7 +82,7 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> """
+<b>🛍 UPI ID:</b> <code>628706468@axl</code> """
     
     HELP_TXT = """<b>Hey</b> {}
     
