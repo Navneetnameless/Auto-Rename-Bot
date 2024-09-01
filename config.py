@@ -13,7 +13,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/4b306f4b15c23a8f22e58.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/1dd44d166f563563a9347.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1302933634').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Nameless_botz") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002197485186"))
@@ -52,7 +52,7 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Nameless_botz'>Madflix Botz</a>
+<b>📢 Channel :</b> <a href='https://t.me/Nameless_botz'>Namless Botz</a>
 <b>🧑‍💻 Developer :</b> <a href='https://t.me/Nameless_being'>Namless Being</a>
     
 <b>♻️ Bot Made By :</b> @Nameless_botz"""
